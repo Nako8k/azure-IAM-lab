@@ -85,16 +85,17 @@ rather than individual users makes access management significantly easier to
 maintain. Adding or removing a user from a group instantly updates their 
 permissions without touching role assignments.
 <br /><br />
-- <b>Least privilege in practice</b> — The difference between Owner and 
-Contributor is the ability to manage access. Giving developers Contributor 
+- <b>Least privilege in practice</b> — I had learned that the difference between Owner and 
+Contributor is the ability to manage access. Giving developers the role of Contributor 
 instead of Owner means they can build and manage resources but cannot grant 
-themselves or others elevated permissions.
+themselves or others elevated permissions or access.
 <br /><br />
-- <b>Licensing gates key security features</b> — Conditional Access with MFA 
-enforcement requires Azure AD Premium P1. This was a real world lesson in how 
-enterprise security features are tiered behind licensing, something worth 
-understanding before designing a security architecture for an organisation.
+- <b>key security features</b> — Conditional Access with MFA 
+enforcement requires Azure AD Premium P1. Because of this I was unable to document my experience, however this is still a real world lesson in how 
+enterprise security are tiered behind licensing, understanding this before designing a security systems for an organisation will save time and 
+provide insight.
 <br /><br />
 - <b>CLI vs Portal</b> — Creating users through the CLI is significantly faster 
-for bulk operations but requires careful attention to UPN formatting. The Portal 
-is more forgiving but impractical at scale.
+for bulk operations but requires careful attention to formatting. The Portal 
+is more forgiving but slower compared to the CLI, 
+personally I have no preference and enjoyed using both system.

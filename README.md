@@ -5,11 +5,6 @@
 
 <h2>Description</h2>
 This lab focuses on Azure Entra ID and Access Management setup.
-<br /><br />
-
-| Detail | Value |
-|---|---|
-| **security groups** | `AZ-Admin` / `AZ-developers` / `AZ-readers` |
 
 ---
 
@@ -45,7 +40,7 @@ azure-IAM-lab/
 I created 9 users in Microsoft Azure, 4 in the `CLI` and 5 via the `Entra Portal`
 
 **Steps:**
-1. I Navigated to **Entra ID** → **User** → **New User** → **+ Create**
+1. I Navigated to **Entra ID** → **User** → **+ New User** → **+ Create**
 2. I Created 5 users manually in Microsoft Entra ID
 3. Then navigated to the **CLI** tab to create 4 additional users
 <br />
@@ -63,7 +58,7 @@ I created 9 users in Microsoft Azure, 4 in the `CLI` and 5 via the `Entra Portal
 I created three security groups to demonstrate how different permissions and roles can be assigned and managed within Azure.
 
 **Steps:** 
-1. Created the security groups via  **Entra ID** → **Groups** → **+ Create**
+1. Created the security groups via  **Entra ID** → **+ New Groups** → **+ Create**
 2. I then assinded the users created inside `Entra ID` to their proper groups 
 
 | Security groups | Role | Method 
@@ -86,11 +81,11 @@ I created three security groups to demonstrate how different permissions and rol
 
 ## Part 3 — Resource Group
 
-I created a resource group named `Az-Rg1-Dev` and set the region to **Australia East**.
+I created a resource group named `Az-Rg1-Dev` and set the region to **New Zealand North**.
 
 **Steps:**
 1. Navigate to **Resource groups** → **+ Create**
-2. Name: `Az-Rg1-Dev` | Region: `Australia East`
+2. Name: `Az-Rg1-Dev` | Region: `New Zealand North`
 3. Click **Review + create** → **Create**
 
 ---
@@ -107,8 +102,7 @@ as they serve as the primary administrators of the tenant and my lab.
 
 ## Part 5 — User Access 
 
-**Steps:**
-1. Assigned User Access Administrator to James Admin and Jane Admin at subscription scope
+Assigned User Access Administrator to James Admin and Jane Admin at subscription scope
 
 <img src="https://imgur.com/e656X6l.png" height="80%" width="80%" alt="User Access Administrator Assignment"/>
 <br />

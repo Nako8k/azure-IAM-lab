@@ -1,4 +1,4 @@
-<h2>Login & Setup</h2>
+## Login & Setup
 
 ```bash
 az login
